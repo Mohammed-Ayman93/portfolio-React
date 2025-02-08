@@ -11,19 +11,15 @@ import Footer from './components/footer';
 function App() {
   return (
     <>
-      <Header />
       <BrowserRouter>
-        <Home />
-        <Skills />
         <Routes>
-          <Route path='/' element={<Projects/>}>
-              <Route path='' element={<> <Section1/> <Section2/> </>}/>
+          <Route path='/portfolio-React' element={<><Header /> <Home /> <Skills /> <Projects/> <Footer /> </> }>
+              <Route path='sec1' element={<> <Section1/> <Section2/> </>}/>
               <Route path='sec2' element={<>  <Section2/> </>}/>
               <Route path='sec3' element={<> <Section3/> <Section2/>  </>}/>
           </Route>
         </Routes>
       </BrowserRouter>
-        <Footer />  
     </>
   );
 }
