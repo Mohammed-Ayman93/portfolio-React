@@ -1,38 +1,232 @@
-.App {
+:root{
+  --mainColor : linear-gradient(rgb(42, 42, 155),rgb(78, 165, 78));
+}
+.icon{
+  border: 1px solid #fff !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: .3s;
+  position: relative;
+  z-index: 0;
+  line-height: 20px;
+  font-size: 16px;
+  margin-left: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+nav button {
+  border-color: #fff !important;
+}
+.icon:hover ,.conncet:hover{
+  background-color: transparent;
+  color: black !important;
+}
+a{
+  color: #fff !important;
+}
+.conncet{
+  border: 1px solid #fff !important;
+  padding: 15px 25px !important;
+  transition: .3s;
+  position: relative;
+  margin-left: 20px;
+  z-index: 0;
+}
+.icon::before ,.conncet::before{
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background-color: #fff ;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  z-index: -1;
+}
+.icon::before{
+  width: 100%;
+  border-radius: 50%;
+  transform: scale(0);
+}
+.conncet:hover::before ,.icon:hover::before{
+  width: 100%;
+  transform: scale(1);
+}
+.nav0{
+  line-height: 10px;
+}
+.d-flex{
+  line-height: 20px;
+  width: 300px;
+}
+/* home */
+.home{
+  background-image: url("https://i0.wp.com/nzizasafaris.com/wp-content/uploads/2018/08/software-system-mobile-apps-in-burundi.jpg?ssl=1");
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+.title{
+  background-image: linear-gradient( to left ,black,grey);
+}
+@keyframes move {
+  from{transform: translateY(0);}
+  to {transform: translateY(20px);}
+}
+.home img{
+  animation: move  1s infinite alternate;
+}
+/* skills */
+body{
+  box-sizing: border-box;
+}
+.skills{
+  height: 75vh;
+  background-image: linear-gradient(to top left , black,grey);
+}
+.circle{
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.value{
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+circle{
+  fill: none;
+  stroke:url(#GradientColor) ;
+  stroke-width: 15px;
+  stroke-dasharray: 400;
+}
+.circle svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.skills-con{
+  transform: translateY(-100px);
+  background-color: rgb(5 7 11);
+}
+.carousel-x li{
+  margin: 0 35px;
+}
+
+/* sec1 */
+.card{
+  position: relative;
+  cursor: pointer;
+}
+.card0{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 0%;
+  background-image: var(--mainColor);
+  opacity: 0;
+  transition: .5s;
+
+}
+.card:hover .card0{
+  height: 100%;
+  opacity: .8;
+}
+.card0 div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 70%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* sec2 */
+.sec2{
+  background-image: var(--mainColor);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input ,textarea{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px !important;
 }
+input{
+  width: 45%;
+}
+textarea{
+  width: 92%;
+  height: 150px;
+}
+input::placeholder ,
+textarea::placeholder{
+  color: #fff;
+}
+input:focus ,textarea:focus{
+  background-color: #fff;
+  outline: none;
+}
+input:focus::placeholder ,textarea:focus::placeholder{
+  color: gray;
+}
+/* #projects .active{
+  background-image: linear-gradient(rgb(42, 42, 155),rgb(78, 165, 78)) !important;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#projects a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-image: var(--mainColor);
+  z-index: -1;
+  transition: .3s;
+}
+#projects a{
+  overflow: hidden;
+}
+#projects a.active::after{
+  width: 100%;
+}
+footer{
+  background-image: var(--mainColor);
+
+}
+footer button{
+  background-image: var(--mainColor);
+
+}
+footer input::placeholder{
+  color: gray;
+}
+footer .inputGroup{
+  transform: translateY(-80px);
+}
+footer .icon{
+  line-height: 35px;
+}
+#ss{
+  position: relative;
+  background-color: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ss::after{
+  position: absolute;
+  content: "";
+  width: 101%;
+  height: 105%;
+  background-image: var(--mainColor);
+  border-radius: inherit;
+  z-index: -1;
 }
