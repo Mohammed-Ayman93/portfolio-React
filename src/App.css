@@ -24,6 +24,7 @@ nav button {
 }
 a{
   color: #fff !important;
+  text-decoration: none !important;
 }
 .conncet{
   border: 1px solid #fff !important;

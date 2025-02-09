@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes ,HashRouter} from 'react-router-dom';
 import './App.css';
 import Header from './components/header';
 import Home from './components/home';
@@ -11,16 +11,16 @@ import Footer from './components/footer';
 function App() {
   return (
     <>
-      <BrowserRouter>
+
         <Routes>
-          <Route path='/portfolio-React' element={<><Header /> <Home /> <Skills /> <Projects/> <Footer /> </> }>
+          <Route path='/' element={<><Header /><Home /><Skills /> <Projects/> <Footer /> </> }>
               <Route path='' element={<> <Section1/> <Section2/> </>}/>
               <Route path='sec1' element={<> <Section1/> <Section2/> </>}/>
               <Route path='sec2' element={<>  <Section2/> </>}/>
               <Route path='sec3' element={<> <Section3/> <Section2/>  </>}/>
           </Route>
         </Routes>
-      </BrowserRouter>
+          
     </>
   );
 }
