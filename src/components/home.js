@@ -1,10 +1,8 @@
-import React from 'react';
-import img1 from '../imges/hacker.png';
-import { Cursor , useTypewriter } from 'react-simple-typewriter';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Nav from 'react-bootstrap/Nav';
 import { HashLink } from 'react-router-hash-link';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import img1 from '../imges/hacker.png';
 
 function Home(){
     const [write] = useTypewriter({
