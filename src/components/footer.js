@@ -2,6 +2,7 @@ import { faFacebookF, faInstagram, faLinkedinIn } from "@fortawesome/free-brands
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 function Footer(){
     return(
@@ -21,7 +22,7 @@ function Footer(){
 
                 </div>
                 <div className="d-flex justify-content-between w-100">
-                <Navbar.Brand className='text-light fs-2 fw-bold' href="#home">LOGO</Navbar.Brand>
+                <HashLink className='text-light fs-2 fw-bold' smooth to="#home">LOGO</HashLink>
                 <div>
                     <div className="d-flex justify-content-end w-100">
                         <Nav.Link target='blank' className='icon' href="https://www.linkedin.com/in/m7md-ayman-b52047288/"> <FontAwesomeIcon icon={faLinkedinIn}/>     </Nav.Link>

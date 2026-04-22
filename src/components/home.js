@@ -4,6 +4,7 @@ import { Cursor , useTypewriter } from 'react-simple-typewriter';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Nav from 'react-bootstrap/Nav';
+import { HashLink } from 'react-router-hash-link';
 
 function Home(){
     const [write] = useTypewriter({
@@ -20,7 +21,7 @@ function Home(){
                         <h2 className='border border-1 d-inline-block p-2 title'>Welcome All In My Portfolio</h2>
                         <p className='fs-1 fw-bolder'>Hi! I'm Mohammed Ayman Mokhtar , {write}<Cursor/></p>
                         <p className='text-secondary'>Hello Evreyone , I have 2 years of Experience in Web Development</p>
-                        <p className='mt-5'>Let's Connect <Nav.Link className='d-inline-block ms-1' href="#section2"> <FontAwesomeIcon icon={faCircleArrowRight} /> </Nav.Link> </p>
+                        <p className='mt-5'>Let's Connect <HashLink className='d-inline-block ms-1' smooth to="#section2"> <FontAwesomeIcon icon={faCircleArrowRight} /> </HashLink> </p>
                     </div>
                     <div className="col-lg-4 col-12 text-center">
                         <img src={img1} alt='img1'/>
