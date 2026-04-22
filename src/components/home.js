@@ -3,8 +3,6 @@ import img1 from '../imges/hacker.png';
 import { Cursor , useTypewriter } from 'react-simple-typewriter';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
 function Home(){
