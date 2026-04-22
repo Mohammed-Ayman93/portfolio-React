@@ -6,7 +6,7 @@ function Section1(){
                 <div className="row p-5">
                     <div className="col-lg-4 col-md-6 col-sm-12 p-2">
                         <div className="overflow-hidden rounded-5 border-0 card">
-                            <img src="https://themes.getbootstrap.com/wp-content/uploads/2020/08/square-preview-4-1200x900.jpg" />
+                            <img src="https://bootstrapmade.com/content/templatefiles/Multi/Multi-bootstrap-website-template.webp" />
                             <div className="card0 rounded-5">
                                 <div>
                                     <h3>Business Startup</h3>
@@ -28,7 +28,7 @@ function Section1(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 p-2">
                         <div className="overflow-hidden rounded-5 border-0 card">
-                            <img src="https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-cover-min.jpeg" />
+                            <img src="https://bootstrapmade.com/content/templatefiles/Forma/Forma-bootstrap-website-template-md.webp" />
                             <div className="card0 rounded-5">
                                 <div>
                                     <h3>Business Startup</h3>
@@ -39,7 +39,7 @@ function Section1(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 p-2">
                         <div className="overflow-hidden rounded-5 border-0 card">
-                            <img src="https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Fagico.png&w=1080&q=80" />
+                            <img src="https://bootstrapmade.com/content/templatefiles/Creativo/Creativo-bootstrap-website-template-md.webp" />
                             <div className="card0 rounded-5">
                                 <div>
                                     <h3>Business Startup</h3>
@@ -50,7 +50,7 @@ function Section1(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 p-2">
                         <div className="overflow-hidden rounded-5 border-0 card">
-                            <img src="https://themefisher.com/_next/image?url=https%3A%2F%2Fdemo.themefisher.com%2Fthumbnails%2Fagico.png&w=1080&q=80" />
+                            <img src="https://bootstrapmade.com/content/templatefiles/Aventro/Aventro-bootstrap-website-template-md.webp" />
                             <div className="card0 rounded-5">
                                 <div>
                                     <h3>Business Startup</h3>
@@ -61,7 +61,7 @@ function Section1(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 p-2">
                         <div className="overflow-hidden rounded-5 border-0 card">
-                            <img src="https://themes.getbootstrap.com/wp-content/uploads/2020/08/square-preview-4-1200x900.jpg" />
+                            <img src="https://bootstrapmade.com/content/templatefiles/Clarity/Clarity-bootstrap-website-template-md.webp" />
                             <div className="card0 rounded-5">
                                 <div>
                                     <h3>Business Startup</h3>
