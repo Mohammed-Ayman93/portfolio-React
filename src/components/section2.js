@@ -6,7 +6,7 @@ function Section2(){
             <div className="container">
                 <div className="row p-5 text-light">
                     <div className="col-lg-6 col-12">
-                        <img className="w-100 mt-5" src={img2}/>
+                        <img className="w-100 mt-5" src={img2} alt="sec2"/>
                     </div>
                     <div className="col-lg-6 col-12">
                         <h2 className="p-2">Get In Touch</h2>

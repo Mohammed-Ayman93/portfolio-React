@@ -25,7 +25,7 @@ function Home(){
                         <p className='mt-5'>Let's Connect <Nav.Link className='d-inline-block ms-1' href="#section2"> <FontAwesomeIcon icon={faCircleArrowRight} /> </Nav.Link> </p>
                     </div>
                     <div className="col-lg-4 col-12 text-center">
-                        <img src={img1}/>
+                        <img src={img1} alt='img1'/>
                     </div>
                 </div>
             </div>
